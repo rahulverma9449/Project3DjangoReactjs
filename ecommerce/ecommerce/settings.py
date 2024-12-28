@@ -26,6 +26,8 @@ SECRET_KEY = "django-insecure-!&y$xoai#)_()b_zs(4v^rcs(=(81%^e3$74u7iyn!=rmdht$=
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+AUTH_USER_MODEL = 'shop.User'
+
 
 
 # Application definition
